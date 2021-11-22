@@ -4,13 +4,17 @@
 } */
 .container {
     min-height: 100vh;
-    padding: 0 0.5rem;
+    padding: 0 0;
     background-color: rgba(0, 0, 0, 0.466);
     background-blend-mode: overlay;
     color:white;
     background-image: url('/bgimage.png');
     background-repeat: no-repeat;
     background-size:cover, 90%;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-content: flex-start;
 }
 .navtext{
     font-size: .9rem;
